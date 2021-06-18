@@ -21,12 +21,12 @@ const Form = () => {
                     />
                 </div>
                 
-                <FormSignup />
-                {!isSubmitted ? (<FormSignup submitForm={submitForm} />) : (<FormSuccess />)}
-                <FormSuccess />
+                {!isSubmitted ? (
+                <FormSignup submitForm={submitForm} />) : (<FormSuccess />)}
             </div>
         </>
     )
 }
 
 export default Form;
+

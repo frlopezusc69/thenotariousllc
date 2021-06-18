@@ -7,21 +7,21 @@ import Services from './components/pages/Services';
 import About from './components/pages/About';
 import SignUp from './components/pages/SignUp';
 
-const http = require('http');
-const port = 3000;
+// const http = require('http');
+// const port = 3000;
 
-const server = http.createServer(function(req, res) {
-  res.write('Hello Node')
-  res.end()
-})
+// const server = http.createServer(function(req, res) {
+//   res.write('Hello Node')
+//   res.end()
+// })
 
-server.listen(port, function(error) {
-  if (error) {
-    console.log('Something went wrong', error)
-  } else {
-    console.log('Server is listening on port ' + port)
-  }
-})
+// server.listen(port, function(error) {
+//   if (error) {
+//     console.log('Something went wrong', error)
+//   } else {
+//     console.log('Server is listening on port ' + port)
+//   }
+// })
 
 function App() {
   return (

@@ -22,8 +22,8 @@
   .form-content-left {
     background: linear-gradient(
       90deg,
-      rgb(39, 176, 255) 0%,
-      rgb(0, 232, 236) 100%
+      rgb(32, 1, 1) 0%,
+      rgb(104, 2, 2) 100%
     );
     border-radius: 10px 0 0 10px;
     position: relative;
@@ -121,8 +121,8 @@
     border-radius: 2px;
     background: linear-gradient(
       90deg,
-      rgb(39, 176, 255) 0%,
-      rgb(0, 232, 236) 100%
+      rgb(170, 182, 5) 0%,
+      rgb(85, 49, 2) 100%
     );
     outline: none;
     border: none;
@@ -134,10 +134,10 @@
     cursor: pointer;
     background: linear-gradient(
       90deg,
-      rgb(39, 143, 255) 0%,
-      rgb(12, 99, 250) 100%
+      rgb(104, 2, 2) 0%,
+      rgb(170, 182, 5) 100%
     );
-    transition: all 0.4s ease-out;
+    transition: all 10s ease-in-out;
   }
   
   .form-input-login {
