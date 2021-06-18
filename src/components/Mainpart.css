@@ -7,7 +7,7 @@ video {
 }
 
 .mainpart-container {
-    background: url('https://images.pexels.com/photos/4340036/pexels-photo-4340036.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500') center center/cover no-repeat;
+    /* background: url('https://images.pexels.com/photos/4340036/pexels-photo-4340036.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500') center center/cover no-repeat; */
     height: 100vh;
     width: 100%;
     display: flex;
