@@ -29,4 +29,4 @@ function Mainpart() {
     )
 }
 
-export default Mainpart
+export default Mainpart;
