@@ -1,6 +1,15 @@
 import React from 'react';
 import '../../App.css';
+import '../Form.css'
+import Form from '../Form';
 
-export default function Services () {
-    return <h1 className="services">SERVICES</h1>;
+
+function Services() {
+    return (
+        <>
+            <Form />
+        </>
+    )
 }
+
+export default Services;
